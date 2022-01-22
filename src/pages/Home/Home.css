@@ -1,0 +1,32 @@
+.homeMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeCard{
+    height: 380px;
+    width: 250px;
+    background: rgb(255, 255, 255);
+    transition: 0.5s all ease;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    align-items: center;
+    border: 2px solid #333333;
+}
+
+.homeCard:hover{
+    transform: scale(1.02);
+    transition: 0.5s all ease;
+}
+
+.cards{
+    display: flex;
+    gap: 26px;
+    padding-top: 100px;
+}
+
+.homeMain h1{
+    padding: 5% 0% 0.5% 0%;
+}
