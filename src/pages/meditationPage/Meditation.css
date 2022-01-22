@@ -1,0 +1,104 @@
+.meditateContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.meditateBody{
+    height: calc(100vh - 8%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.meditateCard{
+    height: 80%;
+    width: 20%;
+    transition: 0.5s all ease;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    align-items: center;
+    border: 5px solid #333333;
+    text-align: center;
+}
+
+.meditateCard:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+
+.meditateCard:hover img{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+
+.meditateCardHead{
+    color: #333333;
+    position: relative;
+    top: 8%;
+}
+.meditateCardButton{
+    min-width: 130px;
+    height: 40px;
+    color: #333333;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: sticky;
+    top: 75%;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #333333;
+    background: #fffefc;
+    box-shadow: 0 8px #333333;
+}
+
+.meditateCardButton:hover {
+    top: 76%;
+}
+.meditateCardButton:active {
+    box-shadow: 0 0 #333333;
+    color: #fffefc;
+    background-color: #333333;
+    top: 77%;
+}
+
+.meditateCardImg{
+    background: url("../../media/Yoga with face masks-bro.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 60%;
+    width: 95%;
+    overflow: hidden;
+    top: 12%;
+}
+
+.meditateCardImg:hover{
+    background: url("../../media/Yoga\ with\ face\ masks.gif");
+    background-position: center;
+    background-size: contain;
+}
+
+.meditateCardImg2{
+    background: url("../../media/Mental\ health-bro.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 60%;
+    width: 95%;
+    overflow: hidden;
+    top: 12%;
+}
+
+.meditateCardImg2:hover{
+    background: url("../../media/Mental\ health.gif");
+    background-position: center;
+    background-size: contain;
+}
