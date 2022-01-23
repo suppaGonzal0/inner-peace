@@ -9,19 +9,19 @@ const Home = () => {
             <div className="cards">
                 <div className="homeCard">
                     <img className='meditation' src="" alt="https://storyset.com/nature" />
-                    <button className='meditate'>Meditate</button>
+                    <button className='meditate' onClick={() => window.location.pathname="/meditation"}>Meditate</button>
                 </div>
                 <div className="homeCard">
                     <img className='bmi' src="" alt="https://storyset.com/data" />
-                    <button className='bmi'>Calculate BMI</button>
+                    <button className='bmi' onClick={() => window.location.pathname="/bmi"}>Calculate BMI</button>
                 </div>
                 <div className="homeCard">
                     <img className='exercise' src="" alt="https://storyset.com/workout" />
-                    <button className='exercise'>Exercise</button>
+                    <button className='exercise' onClick={() => window.location.pathname="/exercises"}>Exercise</button>
                 </div>
                 <div className="homeCard">
                     <img className='diet' src="" alt="https://storyset.com/food" />
-                    <button className='diet'>Diet Plans</button>
+                    <button className='diet' onClick={() => window.location.pathname="/diet"}>Diet Plans</button>
                 </div>
             </div>
         </div>
