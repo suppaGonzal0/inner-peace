@@ -9,7 +9,7 @@ import Lowfat from './Lowfat';
 import Mediterranean from './Mediterranean';
 import WW from './WW';
 import Dash from './Dash';
-
+import Navbar from '../../components/navbar/Navbar';
 const Diet = () => {
 
     const [body, setBody] = useState(<Fasting />);

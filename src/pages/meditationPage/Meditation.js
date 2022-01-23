@@ -10,7 +10,7 @@ function Meditation() {
         <div className="meditateCard">
             <h1 className='meditateCardHead'>Guided Meditation</h1>
             <div className="meditateCardButtonDiv">
-              <button className='meditateCardButton'>Get Started</button>
+              <button className='meditateCardButton' onClick={() => window.location.pathname="/guidedMeditation"}>Get Started</button>
 
             </div>
             
@@ -18,8 +18,7 @@ function Meditation() {
         <div className="meditateCard2">
             <h1 className='meditateCardHead'>Unguided Meditation</h1>
             <div className="meditateCardButtonDiv">
-              <button className='meditateCardButton'>Get Started</button>
-
+              <button className='meditateCardButton' onClick={() => window.location.pathname="/unguidedMeditation"}>Get Started</button>
             </div>
         </div>
       </div>
