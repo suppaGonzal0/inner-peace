@@ -21,7 +21,7 @@ const Home = () => {
                 </div>
                 <div className="homeCard">
                     <img className='diet' src="" alt="https://storyset.com/food" />
-                    <button className='diet'>Recepies</button>
+                    <button className='diet'>Diet Plans</button>
                 </div>
             </div>
         </div>
