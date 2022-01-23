@@ -17,3 +17,12 @@
     height: 100%;
     justify-content: space-evenly;
 }
+
+.navLink{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navLink:visited{
+    color: #333333;
+}
