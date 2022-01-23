@@ -1,0 +1,77 @@
+.unguidedContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.unguidedBody{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 5%; */
+    /* background-color: chartreuse; */
+    overflow-y: scroll;
+    /* justify-content: center; */
+    /* background-color: blue; */
+}
+
+
+.unguidedHeader{
+    display: flex;
+    background-color:white;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+}
+
+.unguidedHeaderTitle{
+    display: flex;
+    flex: 1;
+    /* background-color: violet; */
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.unguidedHeaderImg{
+    background: url("../../media/Mental\ health.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.unguidedMedia{
+    display: flex;
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 75%;
+}
+
+.unguidedLeft{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background: url(../../media/Playlist.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.unguidedRight{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.music{
+    display: flex;
+}
